@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans',sans-serif;
+    overflow-x: hidden;
+}
+.bx-menu{
+    font-size: 40px;
+    margin-left: 40px;
+}
+.bx-menu:hover{
+    color: #db545a ;
+}
+.latest{
+    color: white;
+    background-color: #7fc0ca;
+    padding: 20px;
+    font-size: 20px;
+    line-height:1.6; 
+}
+.para1{
+    padding-left: 20px;
+    font-size: 40px;
+}
+.para2{
+    width: 50%;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.button{
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.button:hover{
+    color:white;
+    background-color: rgb(31, 30, 30);
+}
+.head{
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: lighter;
+}
+.para3{
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+.img{
+    width: 380px;
+    height: 340px;
+    margin: 8px;
+    cursor: pointer;   
+}
+
+.first{
+    background-color: rgba(0, 0, 0, 0.765);
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 35px;   
+}
+.people{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+.mainhead{
+    display: flex;   
+}
+.subhead{
+    background-color: white;
+    color:rgba(0, 0, 0);
+    padding: 25px;
+    margin: 20px;
+}
+.heading{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.side{
+    color: #7fc0ca;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.mainpara{
+    color: rgba(0, 0, 0, 0.749);
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.sub{
+    color:rgba(0, 0, 0, 0.452)
+}
+.para4{
+    line-height: 0.5;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para5{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;  
+    padding-bottom: 35px;
+}
+.img1{
+    width: 380px;
+    height: 340px;
+    margin: 8px;
+    cursor: pointer;   
+}
+.outerbox{
+    background-color: rgba(0, 0, 0, 0.765);
+    color: whitesmoke;
+    padding: 80px;
+}
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.box1{
+    width: 50%;
+    font-weight: 400;
+}
+.box1h2{
+    font-size: 2.25rem;
+}
+.email{
+    font-size: 16px;
+}
+.address{
+    font-size: 20px;
+}
+.hr{
+    width: 500px;
+}
+.box1para{
+    margin-top: 100px;
+    font-size: 1.25;
+}
+.box2{
+    width: 25%;
+}
+.box2 h5{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.box2para1{
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.tel{
+    font-size: 1.125rem;
+}
+.num{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.box2para2{
+    margin-top: 180px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.box3{
+    width: 20%;
+}
+.box3h5{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.box3image{
+    margin-top: 150px;
+}
+
+.bxl-facebook{
+    color: #7fc0ca;
+    font-size: 40px;
+}
+.bxl-twitter{
+    color: #7fc0ca;
+    font-size: 40px;
+}
+.bxl-instagram{
+    color: #7fc0ca;
+    font-size: 40px;
+}
+.outerbox1{
+    text-align:center;
+    margin-top: 80px;
+}
+.outer1{
+    font-size: 16px;
+}
+.outer2{
+    font-size: 16px;
+    margin-top: 80px ;
+}
+.outer3{
+    color: #7fc0ca;
+}
+.outer3:hover{
+    color: gray;
+    text-decoration: none;
+}
+

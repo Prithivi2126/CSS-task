@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+}
+.head1{
+    margin-left: 7%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.head2{
+    color: rgba(128, 128, 128, 0.568);
+    margin-top: 23px;
+    margin-left: 8%;
+}
+.head2 a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.568);
+    padding: 5px;
+}
+.but{
+    padding: 5px;
+}
+.bxs-down-arrow{
+    font-size: 10px;
+}
+.head3{
+    margin-left: 45%;
+    margin-top: 15px;
+}
+.fa-cart-shopping{
+    font-size: 16px;
+    padding-right: 5px;
+}
+.fa-circle-dot{
+    font-size: 16px;
+    padding-left: 5px;
+}
+menu{
+    background-color: rgb(1, 1, 35);
+    color: white;
+    text-align: center;
+    padding: 70px;
+    margin-top: -2px;
+}
+.border{
+    border: 1px solid rgba(0, 0, 0, 0.358);
+    border-radius: 7px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 45px;
+    margin: 7%;
+}
+.main1{
+    position: relative;
+}
+.para{
+    width: 30px;
+    position: absolute;
+    color: white;
+    background-color: black;
+    left: 80%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.main1 img{
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 7px 7px 0px 0px;
+}
+.main2{
+    text-align: center;
+    padding-bottom: 24px;
+}
+.main3{
+    text-align: center;
+}
+button{
+    border: 1px solid rgba(128, 128, 128, 0.806);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+.fa-star{
+    color: rgba(255, 196, 0, 0.973);
+}
+.add{
+    margin-top: 35px;
+}
+footer{
+    background-color: rgb(1, 1, 35);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: -2px;
+}
+.dropdown{
+    position: relative;
+    margin-left: 95%;
+    margin-top: 45px;
+    text-align: center;
+    display: none;
+}
+.dropdown li{
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+}
+.dropdown a{
+    text-decoration: none;
+    padding: 10px;
+}
+.dropcontent{
+    top: 15px;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 10px;
+    width: 150px;
+    right: 5px;
+    background-color: white;
+    padding: 10px;
+   
+}
+.dropdown:hover .dropcontent{
+    visibility: visible;
+}
+@media screen and (max-width:768px) and (min-width:426px){
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        margin-left: 4%;
+        font-size: 20px;
+    }
+    .head2{
+        font-size: 18px;
+        margin-left: 3%;
+        margin-top: 20px;
+    }
+    .head3{
+        margin-left: 25%;
+        margin-top: 12px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+        margin: 7%;
+    }
+}
+@media screen and (max-width:426px) and (min-width:376px){
+    body{
+        overflow-x: hidden;
+    }
+    .head2{
+        display: none;
+    }
+    .head3{
+        display: none;
+    }
+    .dropdown{
+        display: flex;
+        visibility: visible;
+        margin-left: 50%;
+        margin-top: 25px;
+    }
+    .dropdown:hover menu{
+        margin-top: 20%;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        width: 250px;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:376px){
+    body{
+        overflow-x: hidden;
+    }
+    .head2{
+        display: none;
+    }
+    .head3{
+        display: none;
+    }
+    .dropdown{
+        display: flex;
+        visibility: visible;
+        margin-left: 50%;
+        margin-top: 25px;
+    }
+    .dropdown:hover menu{
+        margin-top: 20%;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        width: 250px;
+        margin-left: 17%;
+    }
+}
+@media screen and (max-width:320px){
+    body{
+        overflow-x: hidden;
+    }
+    .head2{
+        display: none;
+        
+    }
+    .head3{
+        display: none;
+    }
+    .dropdown{
+        display: flex;
+        visibility: visible;
+        margin-left: 40%;
+        margin-top: 25px;
+    }
+    .dropdown:hover menu{
+        margin-top: 20%;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        width: 250px;
+        margin-left: 10%;
+    }
+}
